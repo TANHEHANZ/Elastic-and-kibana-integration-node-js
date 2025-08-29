@@ -1,0 +1,898 @@
+[
+  {
+    "timestamp": "2025-08-27T19:12:18.642Z",
+    "body": {
+      "request": {
+        "method": "GET",
+        "querystring": {},
+        "headers": {
+          "postman-token": "af0b6958-899f-4e13-8c15-d76ad97ebed5",
+          "accept": "*/*",
+          "user-agent": "PostmanRuntime/7.45.0",
+          "connection": "keep-alive",
+          "host": "localhost:8000",
+          "accept-encoding": "gzip, deflate, br",
+          "cache-control": "no-cache"
+        },
+        "size": 239,
+        "uri": "/api/auth/test",
+        "id": "b321b0449c6e031dac463f615e862b49",
+        "url": "http://localhost:8000/api/auth/test"
+      },
+      "source": "upstream",
+      "started_at": 1756321938605,
+      "route": {
+        "id": "576c10f5-7dd6-5ffa-b939-ca03836424b6",
+        "name": "auth",
+        "paths": [
+          "/api/auth"
+        ],
+        "service": {
+          "id": "a2cf884d-a2f0-5bc5-87bc-1574859e579f"
+        },
+        "response_buffering": true,
+        "preserve_host": false,
+        "strip_path": true,
+        "https_redirect_status_code": 426,
+        "protocols": [
+          "http",
+          "https"
+        ],
+        "path_handling": "v0",
+        "regex_priority": 0,
+        "created_at": 1756321918,
+        "updated_at": 1756321918,
+        "request_buffering": true,
+        "ws_id": "0dc6f45b-8f8d-40d2-a504-473544ee190b"
+      },
+      "response": {
+        "size": 642,
+        "status": 404,
+        "headers": {
+          "content-length": "143",
+          "ratelimit-limit": "5",
+          "x-kong-request-id": "b321b0449c6e031dac463f615e862b49",
+          "x-kong-upstream-latency": "9",
+          "via": "kong/3.6.1",
+          "x-kong-proxy-latency": "4",
+          "x-powered-by": "Express",
+          "x-ratelimit-remaining-minute": "4",
+          "connection": "close",
+          "ratelimit-remaining": "4",
+          "x-content-type-options": "nosniff",
+          "ratelimit-reset": "42",
+          "x-ratelimit-limit-minute": "5",
+          "content-security-policy": "default-src 'none'",
+          "date": "Wed, 27 Aug 2025 19:12:18 GMT",
+          "content-type": "text/html; charset=utf-8"
+        }
+      },
+      "client_ip": "172.18.0.1",
+      "service": {
+        "id": "a2cf884d-a2f0-5bc5-87bc-1574859e579f",
+        "name": "autenticacion",
+        "retries": 5,
+        "ws_id": "0dc6f45b-8f8d-40d2-a504-473544ee190b",
+        "port": 3000,
+        "protocol": "http",
+        "write_timeout": 60000,
+        "read_timeout": 60000,
+        "created_at": 1756321918,
+        "updated_at": 1756321918,
+        "host": "host.docker.internal",
+        "enabled": true,
+        "connect_timeout": 60000
+      },
+      "upstream_status": "404",
+      "tries": [
+        {
+          "balancer_start": 1756321938609,
+          "balancer_start_ns": 1756321938609700000,
+          "ip": "192.168.65.254",
+          "balancer_latency": 0,
+          "port": 3000,
+          "balancer_latency_ns": 13056
+        }
+      ],
+      "latencies": {
+        "proxy": 9,
+        "request": 13,
+        "kong": 4
+      },
+      "upstream_uri": "/test"
+    }
+  },
+  {
+    "timestamp": "2025-08-27T19:13:42.745Z",
+    "body": {
+      "request": {
+        "method": "GET",
+        "querystring": {},
+        "headers": {
+          "postman-token": "f46df591-1fe3-4242-a89d-014701175682",
+          "accept": "*/*",
+          "user-agent": "PostmanRuntime/7.45.0",
+          "connection": "keep-alive",
+          "host": "localhost:8000",
+          "accept-encoding": "gzip, deflate, br",
+          "cache-control": "no-cache"
+        },
+        "size": 239,
+        "uri": "/api/auth/test",
+        "id": "c5001c54a4fa7d3d21855326ddc84222",
+        "url": "http://localhost:8000/api/auth/test"
+      },
+      "source": "upstream",
+      "started_at": 1756322022736,
+      "route": {
+        "id": "576c10f5-7dd6-5ffa-b939-ca03836424b6",
+        "name": "auth",
+        "paths": [
+          "/api/auth"
+        ],
+        "service": {
+          "id": "a2cf884d-a2f0-5bc5-87bc-1574859e579f"
+        },
+        "response_buffering": true,
+        "preserve_host": false,
+        "strip_path": true,
+        "https_redirect_status_code": 426,
+        "protocols": [
+          "http",
+          "https"
+        ],
+        "path_handling": "v0",
+        "regex_priority": 0,
+        "created_at": 1756321918,
+        "updated_at": 1756321918,
+        "request_buffering": true,
+        "ws_id": "0dc6f45b-8f8d-40d2-a504-473544ee190b"
+      },
+      "response": {
+        "size": 642,
+        "status": 404,
+        "headers": {
+          "content-length": "143",
+          "ratelimit-limit": "5",
+          "x-kong-request-id": "c5001c54a4fa7d3d21855326ddc84222",
+          "x-kong-upstream-latency": "4",
+          "via": "kong/3.6.1",
+          "x-kong-proxy-latency": "0",
+          "x-powered-by": "Express",
+          "x-ratelimit-remaining-minute": "4",
+          "connection": "close",
+          "ratelimit-remaining": "4",
+          "x-content-type-options": "nosniff",
+          "ratelimit-reset": "18",
+          "x-ratelimit-limit-minute": "5",
+          "content-security-policy": "default-src 'none'",
+          "date": "Wed, 27 Aug 2025 19:13:42 GMT",
+          "content-type": "text/html; charset=utf-8"
+        }
+      },
+      "client_ip": "172.18.0.1",
+      "service": {
+        "id": "a2cf884d-a2f0-5bc5-87bc-1574859e579f",
+        "name": "autenticacion",
+        "retries": 5,
+        "ws_id": "0dc6f45b-8f8d-40d2-a504-473544ee190b",
+        "port": 3000,
+        "protocol": "http",
+        "write_timeout": 60000,
+        "read_timeout": 60000,
+        "created_at": 1756321918,
+        "updated_at": 1756321918,
+        "host": "host.docker.internal",
+        "enabled": true,
+        "connect_timeout": 60000
+      },
+      "upstream_status": "404",
+      "tries": [
+        {
+          "balancer_start": 1756322022736,
+          "balancer_start_ns": 1756322022736800000,
+          "ip": "192.168.65.254",
+          "balancer_latency": 0,
+          "port": 3000,
+          "balancer_latency_ns": 19456
+        }
+      ],
+      "latencies": {
+        "proxy": 4,
+        "request": 4,
+        "kong": 0
+      },
+      "upstream_uri": "/test"
+    }
+  },
+  {
+    "timestamp": "2025-08-27T19:15:07.620Z",
+    "body": {
+      "request": {
+        "method": "GET",
+        "querystring": {},
+        "headers": {
+          "connection": "keep-alive",
+          "accept-encoding": "gzip, deflate, br",
+          "accept": "*/*",
+          "user-agent": "PostmanRuntime/7.45.0",
+          "host": "localhost:8000",
+          "postman-token": "5f702ef4-8a9c-4b64-a49a-ed5260bf2760",
+          "cache-control": "no-cache"
+        },
+        "size": 239,
+        "uri": "/api/auth/test",
+        "id": "5fd12762a3b1053314d198768dbde27b",
+        "url": "http://localhost:8000/api/auth/test"
+      },
+      "source": "upstream",
+      "started_at": 1756322107557,
+      "route": {
+        "id": "576c10f5-7dd6-5ffa-b939-ca03836424b6",
+        "name": "auth",
+        "paths": [
+          "/api/auth"
+        ],
+        "service": {
+          "id": "a2cf884d-a2f0-5bc5-87bc-1574859e579f"
+        },
+        "response_buffering": true,
+        "preserve_host": false,
+        "strip_path": true,
+        "https_redirect_status_code": 426,
+        "protocols": [
+          "http",
+          "https"
+        ],
+        "path_handling": "v0",
+        "regex_priority": 0,
+        "created_at": 1756321918,
+        "updated_at": 1756321918,
+        "request_buffering": true,
+        "ws_id": "0dc6f45b-8f8d-40d2-a504-473544ee190b"
+      },
+      "response": {
+        "size": 2113,
+        "status": 200,
+        "headers": {
+          "content-length": "1647",
+          "x-kong-request-id": "5fd12762a3b1053314d198768dbde27b",
+          "x-kong-upstream-latency": "44",
+          "via": "kong/3.6.1",
+          "x-kong-proxy-latency": "3",
+          "ratelimit-limit": "5",
+          "x-ratelimit-remaining-minute": "4",
+          "connection": "close",
+          "ratelimit-remaining": "4",
+          "x-ratelimit-limit-minute": "5",
+          "etag": "W/\"66f-OIHxPOm49rZuD5Zc8hidvgjRCaw\"",
+          "ratelimit-reset": "53",
+          "x-powered-by": "Express",
+          "date": "Wed, 27 Aug 2025 19:15:07 GMT",
+          "content-type": "application/json; charset=utf-8"
+        }
+      },
+      "client_ip": "172.18.0.1",
+      "service": {
+        "id": "a2cf884d-a2f0-5bc5-87bc-1574859e579f",
+        "name": "autenticacion",
+        "retries": 5,
+        "ws_id": "0dc6f45b-8f8d-40d2-a504-473544ee190b",
+        "port": 3000,
+        "protocol": "http",
+        "write_timeout": 60000,
+        "read_timeout": 60000,
+        "created_at": 1756321918,
+        "updated_at": 1756321918,
+        "host": "host.docker.internal",
+        "enabled": true,
+        "connect_timeout": 60000
+      },
+      "upstream_status": "200",
+      "tries": [
+        {
+          "balancer_start": 1756322107560,
+          "balancer_start_ns": 1756322107560800000,
+          "ip": "192.168.65.254",
+          "balancer_latency": 0,
+          "port": 3000,
+          "balancer_latency_ns": 13312
+        }
+      ],
+      "latencies": {
+        "proxy": 44,
+        "request": 47,
+        "kong": 3
+      },
+      "upstream_uri": "/test"
+    }
+  },
+  {
+    "timestamp": "2025-08-27T19:15:21.791Z",
+    "body": {
+      "request": {
+        "method": "GET",
+        "querystring": {},
+        "headers": {
+          "connection": "keep-alive",
+          "accept-encoding": "gzip, deflate, br",
+          "accept": "*/*",
+          "user-agent": "PostmanRuntime/7.45.0",
+          "host": "localhost:8000",
+          "postman-token": "99f1f09b-86cb-4e22-b104-f3b7e7c05f75",
+          "cache-control": "no-cache"
+        },
+        "size": 239,
+        "uri": "/api/auth/test",
+        "id": "5430cd129e1a2f02a351fe37169da806",
+        "url": "http://localhost:8000/api/auth/test"
+      },
+      "source": "upstream",
+      "started_at": 1756322121766,
+      "route": {
+        "id": "576c10f5-7dd6-5ffa-b939-ca03836424b6",
+        "name": "auth",
+        "paths": [
+          "/api/auth"
+        ],
+        "service": {
+          "id": "a2cf884d-a2f0-5bc5-87bc-1574859e579f"
+        },
+        "response_buffering": true,
+        "preserve_host": false,
+        "strip_path": true,
+        "https_redirect_status_code": 426,
+        "protocols": [
+          "http",
+          "https"
+        ],
+        "path_handling": "v0",
+        "regex_priority": 0,
+        "created_at": 1756321918,
+        "updated_at": 1756321918,
+        "request_buffering": true,
+        "ws_id": "0dc6f45b-8f8d-40d2-a504-473544ee190b"
+      },
+      "response": {
+        "size": 2123,
+        "status": 200,
+        "headers": {
+          "content-length": "1657",
+          "x-kong-request-id": "5430cd129e1a2f02a351fe37169da806",
+          "x-kong-upstream-latency": "18",
+          "via": "kong/3.6.1",
+          "x-kong-proxy-latency": "1",
+          "ratelimit-limit": "5",
+          "x-ratelimit-remaining-minute": "3",
+          "connection": "close",
+          "ratelimit-remaining": "3",
+          "x-ratelimit-limit-minute": "5",
+          "etag": "W/\"679-gbh5+D0Gd85D61lsMZw2S3wI2EI\"",
+          "ratelimit-reset": "39",
+          "x-powered-by": "Express",
+          "date": "Wed, 27 Aug 2025 19:15:21 GMT",
+          "content-type": "application/json; charset=utf-8"
+        }
+      },
+      "client_ip": "172.18.0.1",
+      "service": {
+        "id": "a2cf884d-a2f0-5bc5-87bc-1574859e579f",
+        "name": "autenticacion",
+        "retries": 5,
+        "ws_id": "0dc6f45b-8f8d-40d2-a504-473544ee190b",
+        "port": 3000,
+        "protocol": "http",
+        "write_timeout": 60000,
+        "read_timeout": 60000,
+        "created_at": 1756321918,
+        "updated_at": 1756321918,
+        "host": "host.docker.internal",
+        "enabled": true,
+        "connect_timeout": 60000
+      },
+      "upstream_status": "200",
+      "tries": [
+        {
+          "balancer_start": 1756322121767,
+          "balancer_start_ns": 1756322121767100000,
+          "ip": "192.168.65.254",
+          "balancer_latency": 0,
+          "port": 3000,
+          "balancer_latency_ns": 14080
+        }
+      ],
+      "latencies": {
+        "proxy": 18,
+        "request": 19,
+        "kong": 1
+      },
+      "upstream_uri": "/test"
+    }
+  },
+  {
+    "timestamp": "2025-08-27T19:15:23.071Z",
+    "body": {
+      "request": {
+        "method": "GET",
+        "querystring": {},
+        "headers": {
+          "connection": "keep-alive",
+          "accept-encoding": "gzip, deflate, br",
+          "accept": "*/*",
+          "user-agent": "PostmanRuntime/7.45.0",
+          "host": "localhost:8000",
+          "postman-token": "c9832d05-3017-44ed-9513-f13c1d3c0e61",
+          "cache-control": "no-cache"
+        },
+        "size": 239,
+        "uri": "/api/auth/test",
+        "id": "ea70bd44daef9f0fb6735a62169ab438",
+        "url": "http://localhost:8000/api/auth/test"
+      },
+      "source": "upstream",
+      "started_at": 1756322123049,
+      "route": {
+        "id": "576c10f5-7dd6-5ffa-b939-ca03836424b6",
+        "name": "auth",
+        "paths": [
+          "/api/auth"
+        ],
+        "service": {
+          "id": "a2cf884d-a2f0-5bc5-87bc-1574859e579f"
+        },
+        "response_buffering": true,
+        "preserve_host": false,
+        "strip_path": true,
+        "https_redirect_status_code": 426,
+        "protocols": [
+          "http",
+          "https"
+        ],
+        "path_handling": "v0",
+        "regex_priority": 0,
+        "created_at": 1756321918,
+        "updated_at": 1756321918,
+        "request_buffering": true,
+        "ws_id": "0dc6f45b-8f8d-40d2-a504-473544ee190b"
+      },
+      "response": {
+        "size": 2123,
+        "status": 200,
+        "headers": {
+          "content-length": "1657",
+          "x-kong-request-id": "ea70bd44daef9f0fb6735a62169ab438",
+          "x-kong-upstream-latency": "17",
+          "via": "kong/3.6.1",
+          "x-kong-proxy-latency": "1",
+          "ratelimit-limit": "5",
+          "x-ratelimit-remaining-minute": "2",
+          "connection": "close",
+          "ratelimit-remaining": "2",
+          "x-ratelimit-limit-minute": "5",
+          "etag": "W/\"679-FcLB6TA3omPaOlvwamWNZl9mRGs\"",
+          "ratelimit-reset": "37",
+          "x-powered-by": "Express",
+          "date": "Wed, 27 Aug 2025 19:15:23 GMT",
+          "content-type": "application/json; charset=utf-8"
+        }
+      },
+      "client_ip": "172.18.0.1",
+      "service": {
+        "id": "a2cf884d-a2f0-5bc5-87bc-1574859e579f",
+        "name": "autenticacion",
+        "retries": 5,
+        "ws_id": "0dc6f45b-8f8d-40d2-a504-473544ee190b",
+        "port": 3000,
+        "protocol": "http",
+        "write_timeout": 60000,
+        "read_timeout": 60000,
+        "created_at": 1756321918,
+        "updated_at": 1756321918,
+        "host": "host.docker.internal",
+        "enabled": true,
+        "connect_timeout": 60000
+      },
+      "upstream_status": "200",
+      "tries": [
+        {
+          "balancer_start": 1756322123050,
+          "balancer_start_ns": 1756322123050600000,
+          "ip": "192.168.65.254",
+          "balancer_latency": 0,
+          "port": 3000,
+          "balancer_latency_ns": 17408
+        }
+      ],
+      "latencies": {
+        "proxy": 17,
+        "request": 18,
+        "kong": 1
+      },
+      "upstream_uri": "/test"
+    }
+  },
+  {
+    "timestamp": "2025-08-27T19:15:24.695Z",
+    "body": {
+      "request": {
+        "method": "GET",
+        "querystring": {},
+        "headers": {
+          "connection": "keep-alive",
+          "accept-encoding": "gzip, deflate, br",
+          "accept": "*/*",
+          "user-agent": "PostmanRuntime/7.45.0",
+          "host": "localhost:8000",
+          "postman-token": "5d2bae14-079c-4986-84db-baa798483167",
+          "cache-control": "no-cache"
+        },
+        "size": 239,
+        "uri": "/api/auth/test",
+        "id": "747e4a500e56f102eee3a209b086a239",
+        "url": "http://localhost:8000/api/auth/test"
+      },
+      "source": "upstream",
+      "started_at": 1756322124675,
+      "route": {
+        "id": "576c10f5-7dd6-5ffa-b939-ca03836424b6",
+        "name": "auth",
+        "paths": [
+          "/api/auth"
+        ],
+        "service": {
+          "id": "a2cf884d-a2f0-5bc5-87bc-1574859e579f"
+        },
+        "response_buffering": true,
+        "preserve_host": false,
+        "strip_path": true,
+        "https_redirect_status_code": 426,
+        "protocols": [
+          "http",
+          "https"
+        ],
+        "path_handling": "v0",
+        "regex_priority": 0,
+        "created_at": 1756321918,
+        "updated_at": 1756321918,
+        "request_buffering": true,
+        "ws_id": "0dc6f45b-8f8d-40d2-a504-473544ee190b"
+      },
+      "response": {
+        "size": 2123,
+        "status": 200,
+        "headers": {
+          "content-length": "1657",
+          "x-kong-request-id": "747e4a500e56f102eee3a209b086a239",
+          "x-kong-upstream-latency": "16",
+          "via": "kong/3.6.1",
+          "x-kong-proxy-latency": "1",
+          "ratelimit-limit": "5",
+          "x-ratelimit-remaining-minute": "1",
+          "connection": "close",
+          "ratelimit-remaining": "1",
+          "x-ratelimit-limit-minute": "5",
+          "etag": "W/\"679-kB2K8zwaOh61N10kRYFiD3uXg8Q\"",
+          "ratelimit-reset": "36",
+          "x-powered-by": "Express",
+          "date": "Wed, 27 Aug 2025 19:15:24 GMT",
+          "content-type": "application/json; charset=utf-8"
+        }
+      },
+      "client_ip": "172.18.0.1",
+      "service": {
+        "id": "a2cf884d-a2f0-5bc5-87bc-1574859e579f",
+        "name": "autenticacion",
+        "retries": 5,
+        "ws_id": "0dc6f45b-8f8d-40d2-a504-473544ee190b",
+        "port": 3000,
+        "protocol": "http",
+        "write_timeout": 60000,
+        "read_timeout": 60000,
+        "created_at": 1756321918,
+        "updated_at": 1756321918,
+        "host": "host.docker.internal",
+        "enabled": true,
+        "connect_timeout": 60000
+      },
+      "upstream_status": "200",
+      "tries": [
+        {
+          "balancer_start": 1756322124676,
+          "balancer_start_ns": 1756322124676200000,
+          "ip": "192.168.65.254",
+          "balancer_latency": 0,
+          "port": 3000,
+          "balancer_latency_ns": 13312
+        }
+      ],
+      "latencies": {
+        "proxy": 16,
+        "request": 18,
+        "kong": 2
+      },
+      "upstream_uri": "/test"
+    }
+  },
+  {
+    "timestamp": "2025-08-27T19:15:25.594Z",
+    "body": {
+      "request": {
+        "method": "GET",
+        "querystring": {},
+        "headers": {
+          "connection": "keep-alive",
+          "accept-encoding": "gzip, deflate, br",
+          "accept": "*/*",
+          "user-agent": "PostmanRuntime/7.45.0",
+          "host": "localhost:8000",
+          "postman-token": "8826cbf0-683e-4762-91df-10a09e92c719",
+          "cache-control": "no-cache"
+        },
+        "size": 239,
+        "uri": "/api/auth/test",
+        "id": "cb462e0e09f8582b05a0f60491803774",
+        "url": "http://localhost:8000/api/auth/test"
+      },
+      "source": "upstream",
+      "started_at": 1756322125575,
+      "route": {
+        "id": "576c10f5-7dd6-5ffa-b939-ca03836424b6",
+        "name": "auth",
+        "paths": [
+          "/api/auth"
+        ],
+        "service": {
+          "id": "a2cf884d-a2f0-5bc5-87bc-1574859e579f"
+        },
+        "response_buffering": true,
+        "preserve_host": false,
+        "strip_path": true,
+        "https_redirect_status_code": 426,
+        "protocols": [
+          "http",
+          "https"
+        ],
+        "path_handling": "v0",
+        "regex_priority": 0,
+        "created_at": 1756321918,
+        "updated_at": 1756321918,
+        "request_buffering": true,
+        "ws_id": "0dc6f45b-8f8d-40d2-a504-473544ee190b"
+      },
+      "response": {
+        "size": 2123,
+        "status": 200,
+        "headers": {
+          "content-length": "1657",
+          "x-kong-request-id": "cb462e0e09f8582b05a0f60491803774",
+          "x-kong-upstream-latency": "16",
+          "via": "kong/3.6.1",
+          "x-kong-proxy-latency": "0",
+          "ratelimit-limit": "5",
+          "x-ratelimit-remaining-minute": "0",
+          "connection": "close",
+          "ratelimit-remaining": "0",
+          "x-ratelimit-limit-minute": "5",
+          "etag": "W/\"679-W8SY4E/mFOzledKq3jZ3kdFRbCw\"",
+          "ratelimit-reset": "35",
+          "x-powered-by": "Express",
+          "date": "Wed, 27 Aug 2025 19:15:25 GMT",
+          "content-type": "application/json; charset=utf-8"
+        }
+      },
+      "client_ip": "172.18.0.1",
+      "service": {
+        "id": "a2cf884d-a2f0-5bc5-87bc-1574859e579f",
+        "name": "autenticacion",
+        "retries": 5,
+        "ws_id": "0dc6f45b-8f8d-40d2-a504-473544ee190b",
+        "port": 3000,
+        "protocol": "http",
+        "write_timeout": 60000,
+        "read_timeout": 60000,
+        "created_at": 1756321918,
+        "updated_at": 1756321918,
+        "host": "host.docker.internal",
+        "enabled": true,
+        "connect_timeout": 60000
+      },
+      "upstream_status": "200",
+      "tries": [
+        {
+          "balancer_start": 1756322125575,
+          "balancer_start_ns": 1756322125575900000,
+          "ip": "192.168.65.254",
+          "balancer_latency": 0,
+          "port": 3000,
+          "balancer_latency_ns": 12288
+        }
+      ],
+      "latencies": {
+        "proxy": 16,
+        "request": 16,
+        "kong": 0
+      },
+      "upstream_uri": "/test"
+    }
+  },
+  {
+    "timestamp": "2025-08-27T19:15:26.377Z",
+    "body": {
+      "request": {
+        "method": "GET",
+        "querystring": {},
+        "headers": {
+          "connection": "keep-alive",
+          "accept-encoding": "gzip, deflate, br",
+          "accept": "*/*",
+          "user-agent": "PostmanRuntime/7.45.0",
+          "host": "localhost:8000",
+          "postman-token": "eb128631-e9e8-43eb-8bc8-5d6aa2b6853c",
+          "cache-control": "no-cache"
+        },
+        "size": 239,
+        "uri": "/api/auth/test",
+        "id": "51ec4d1dc8bf5409a3d3ce33b00ba107",
+        "url": "http://localhost:8000/api/auth/test"
+      },
+      "source": "kong",
+      "started_at": 1756322126375,
+      "route": {
+        "id": "576c10f5-7dd6-5ffa-b939-ca03836424b6",
+        "name": "auth",
+        "paths": [
+          "/api/auth"
+        ],
+        "service": {
+          "id": "a2cf884d-a2f0-5bc5-87bc-1574859e579f"
+        },
+        "response_buffering": true,
+        "preserve_host": false,
+        "strip_path": true,
+        "https_redirect_status_code": 426,
+        "protocols": [
+          "http",
+          "https"
+        ],
+        "path_handling": "v0",
+        "regex_priority": 0,
+        "created_at": 1756321918,
+        "updated_at": 1756321918,
+        "request_buffering": true,
+        "ws_id": "0dc6f45b-8f8d-40d2-a504-473544ee190b"
+      },
+      "response": {
+        "size": 499,
+        "status": 429,
+        "headers": {
+          "content-length": "92",
+          "x-kong-request-id": "51ec4d1dc8bf5409a3d3ce33b00ba107",
+          "x-kong-response-latency": "0",
+          "x-ratelimit-remaining-minute": "0",
+          "connection": "close",
+          "ratelimit-remaining": "0",
+          "retry-after": "34",
+          "server": "kong/3.6.1",
+          "x-ratelimit-limit-minute": "5",
+          "ratelimit-reset": "34",
+          "ratelimit-limit": "5",
+          "content-type": "application/json; charset=utf-8"
+        }
+      },
+      "client_ip": "172.18.0.1",
+      "service": {
+        "id": "a2cf884d-a2f0-5bc5-87bc-1574859e579f",
+        "name": "autenticacion",
+        "retries": 5,
+        "ws_id": "0dc6f45b-8f8d-40d2-a504-473544ee190b",
+        "port": 3000,
+        "protocol": "http",
+        "write_timeout": 60000,
+        "read_timeout": 60000,
+        "created_at": 1756321918,
+        "updated_at": 1756321918,
+        "host": "host.docker.internal",
+        "enabled": true,
+        "connect_timeout": 60000
+      },
+      "upstream_status": "",
+      "tries": [],
+      "latencies": {
+        "proxy": -1,
+        "request": 0,
+        "kong": 0
+      },
+      "upstream_uri": "/test"
+    }
+  },
+  {
+    "timestamp": "2025-08-27T19:15:27.271Z",
+    "body": {
+      "request": {
+        "method": "GET",
+        "querystring": {},
+        "headers": {
+          "connection": "keep-alive",
+          "accept-encoding": "gzip, deflate, br",
+          "accept": "*/*",
+          "user-agent": "PostmanRuntime/7.45.0",
+          "host": "localhost:8000",
+          "postman-token": "0013b921-79fa-4175-a41f-937dc93ee978",
+          "cache-control": "no-cache"
+        },
+        "size": 239,
+        "uri": "/api/auth/test",
+        "id": "aa94db40f091e30f6dd73676b8aaf302",
+        "url": "http://localhost:8000/api/auth/test"
+      },
+      "source": "kong",
+      "started_at": 1756322127268,
+      "route": {
+        "id": "576c10f5-7dd6-5ffa-b939-ca03836424b6",
+        "name": "auth",
+        "paths": [
+          "/api/auth"
+        ],
+        "service": {
+          "id": "a2cf884d-a2f0-5bc5-87bc-1574859e579f"
+        },
+        "response_buffering": true,
+        "preserve_host": false,
+        "strip_path": true,
+        "https_redirect_status_code": 426,
+        "protocols": [
+          "http",
+          "https"
+        ],
+        "path_handling": "v0",
+        "regex_priority": 0,
+        "created_at": 1756321918,
+        "updated_at": 1756321918,
+        "request_buffering": true,
+        "ws_id": "0dc6f45b-8f8d-40d2-a504-473544ee190b"
+      },
+      "response": {
+        "size": 499,
+        "status": 429,
+        "headers": {
+          "content-length": "92",
+          "x-kong-request-id": "aa94db40f091e30f6dd73676b8aaf302",
+          "x-kong-response-latency": "0",
+          "x-ratelimit-remaining-minute": "0",
+          "connection": "close",
+          "ratelimit-remaining": "0",
+          "retry-after": "33",
+          "server": "kong/3.6.1",
+          "x-ratelimit-limit-minute": "5",
+          "ratelimit-reset": "33",
+          "ratelimit-limit": "5",
+          "content-type": "application/json; charset=utf-8"
+        }
+      },
+      "client_ip": "172.18.0.1",
+      "service": {
+        "id": "a2cf884d-a2f0-5bc5-87bc-1574859e579f",
+        "name": "autenticacion",
+        "retries": 5,
+        "ws_id": "0dc6f45b-8f8d-40d2-a504-473544ee190b",
+        "port": 3000,
+        "protocol": "http",
+        "write_timeout": 60000,
+        "read_timeout": 60000,
+        "created_at": 1756321918,
+        "updated_at": 1756321918,
+        "host": "host.docker.internal",
+        "enabled": true,
+        "connect_timeout": 60000
+      },
+      "upstream_status": "",
+      "tries": [],
+      "latencies": {
+        "proxy": -1,
+        "request": 0,
+        "kong": 0
+      },
+      "upstream_uri": "/test"
+    }
+  }
+]
